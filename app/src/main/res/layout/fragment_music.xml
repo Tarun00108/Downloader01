@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusicFragment"
+    android:background="@drawable/music">
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/musiclink"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/corner"
+            android:gravity="center"
+            android:hint="AudioLink"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <Button
+        android:id="@+id/musicbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Download"/>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/play"
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="70dp"
+        android:text="Play"/>
+
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="70dp"
+        android:text="Stop"/>
+    </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
